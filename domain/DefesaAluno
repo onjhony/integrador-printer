@@ -4,17 +4,221 @@
  */
 public class DefesaAluno {
     
-    private int Defesaaluno defesaaluno;
-    private long Defesa defesa;
-    private long Aluno aluno;
-    private long Pesquisatipotcc pesquisatipotcc;
-    private long Banca banca;
-    private long Defesacomentario defesacomentario;
+    private Defesaaluno defesaaluno;
+    private Defesa defesa;
+    private Aluno aluno;
+    private Pesquisatipotcc pesquisatipotcc;
+    private Banca banca;
+    private Defesacomentario defesacomentario;
     private double nota;
     private String data;
     private String status;
     private String tema;
+
     
+   
+    /**
+     * @return the defesaaluno
+     */
+    public Defesaaluno getDefesaaluno() {
+        return defesaaluno;
+    }
+
+    /**
+     * @param defesaaluno the defesaaluno to set
+     */
+    public void setDefesaaluno(Defesaaluno defesaaluno) {
+        this.defesaaluno = defesaaluno;
+    }
+
+    /**
+     * @return the defesa
+     */
+    public Defesa getDefesa() {
+        return defesa;
+    }
+
+    /**
+     * @param defesa the defesa to set
+     */
+    public void setDefesa(Defesa defesa) {
+        this.defesa = defesa;
+    }
+
+    /**
+     * @return the aluno
+     */
+    public Aluno getAluno() {
+        return aluno;
+    }
+
+    /**
+     * @param aluno the aluno to set
+     */
+    public void setAluno(Aluno aluno) {
+        this.aluno = aluno;
+    }
+
+    /**
+     * @return the pesquisatipotcc
+     */
+    public Pesquisatipotcc getPesquisatipotcc() {
+        return pesquisatipotcc;
+    }
+
+    /**
+     * @param pesquisatipotcc the pesquisatipotcc to set
+     */
+    public void setPesquisatipotcc(Pesquisatipotcc pesquisatipotcc) {
+        this.pesquisatipotcc = pesquisatipotcc;
+    }
+
+    /**
+     * @return the banca
+     */
+    public Banca getBanca() {
+        return banca;
+    }
+
+    /**
+     * @param banca the banca to set
+     */
+    public void setBanca(Banca banca) {
+        this.banca = banca;
+    }
+
+    /**
+     * @return the defesacomentario
+     */
+    public Defesacomentario getDefesacomentario() {
+        return defesacomentario;
+    }
+
+    /**
+     * @param defesacomentario the defesacomentario to set
+     */
+    public void setDefesacomentario(Defesacomentario defesacomentario) {
+        this.defesacomentario = defesacomentario;
+    }
+
+    /**
+     * @return the nota
+     */
+    public double getNota() {
+        return nota;
+    }
+
+    /**
+     * @param nota the nota to set
+     */
+    public void setNota(double nota) {
+        this.nota = nota;
+    }
+
+    /**
+     * @return the data
+     */
+    public String getData() {
+        return data;
+    }
+
+    /**
+     * @param data the data to set
+     */
+    public void setData(String data) {
+        this.data = data;
+    }
+
+    /**
+     * @return the status
+     */
+    public String getStatus() {
+        return status;
+    }
+
+    /**
+     * @param status the status to set
+     */
+    public void setStatus(String status) {
+        this.status = status;
+    }
+
+    /**
+     * @return the tema
+     */
+    public String getTema() {
+        return tema;
+    }
+
+    /**
+     * @param tema the tema to set
+     */
+    public void setTema(String tema) {
+        this.tema = tema;
+    }
+
+    private static class Defesaaluno {
+
+        public Defesaaluno() {
+             Defesaaluno defesaaluno1 = new defesaaluno();
     
+        }
+    }
+
+    private static class Defesa {
+
+        public Defesa() {
+            Defesa defesa1 = new defesa();
+        }
+    }
+
+    private static class Aluno {
+
+        public Aluno() {
+            Aluno aluno1 = new aluno();
+        }
+    }
+
+    private static class Pesquisatipotcc {
+
+        public Pesquisatipotcc() {
+            Pesquisatipotcc pesquisatipotcc1 = new pesquisatipotcc();
+        }
+    }
+
+    private static class Banca {
+
+        public Banca() {
+            Banca banca1 = new banca();
+        }
+    }
+
+    private static class Defesacomentario {
+
+        public Defesacomentario() {
+            Defesacomentario defesacomentario1 = defesacomentario();
+        }
+    private static class nota{
+        public nota(){
+            double nota1 = new nota();
+        }
+    }
+    private static class data{
+        public data{
+         String data1 = new data();
+        }
+    } 
+    private static class status{
+        public status{
+            String status1 = new status();
+        }
+    }
+    private static class tema{
+        public tema{
+            String tema1 = new tema();
+        }
+    }
+    }
     
 }
+
